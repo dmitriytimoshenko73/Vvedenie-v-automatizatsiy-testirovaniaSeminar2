@@ -3,11 +3,12 @@ package org.max.demo.solid;
 /**
  * Датчик температуры - пример с функицоналом sms оповещения
  */
-public class TemperatureSensor implements ISensor{
+public class TemperatureOpenSensor implements ISensor{
 
     private int valueActual;
+    private int smsSend;
 
-    public TemperatureSensor(int valueMax) {
+    public TemperatureOpenSensor(int valueMax) {
         this.valueMax = valueMax;
     }
 
@@ -33,4 +34,14 @@ public class TemperatureSensor implements ISensor{
     public boolean isAlarm() {
         return checkAlert(valueActual, valueMax);
     }
+
+    public void sendSms() {
+        smsSend++;
+    }
+
+    public int getSmsSend() {
+        return smsSend;
+    }
+
+
 }

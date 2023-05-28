@@ -1,5 +1,8 @@
 package org.max.demo.solid;
 
+/**
+ * Интерфейс датчиков
+ */
 public interface ISensor {
 
     public void getSignal(int signal);

@@ -1,5 +1,8 @@
 package org.max.demo.solid;
 
+/**
+ * Датчик дыма
+ */
 public class SmokeSensor implements ISensor{
 
     private int valueActual;

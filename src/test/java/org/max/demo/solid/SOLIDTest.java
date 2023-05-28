@@ -3,10 +3,10 @@ package org.max.demo.solid;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class SingleResponsibilityTest {
+public class SOLIDTest {
 
     @Test
-    void testSuperSensor() {
+    void testSuperSensorSingleResponsibility() {
         //given
         SuperSensor sensor = new SuperSensor(10, 100);
         //when
@@ -18,7 +18,7 @@ public class SingleResponsibilityTest {
     }
 
     @Test
-    void testSensors() {
+    void testSensorsSingleResponsibility() {
         //given
         ISensor sensorTemperature = new TemperatureSensor(100);
         ISensor sensorSmoke = new SmokeSensor(100, false);
@@ -28,6 +28,20 @@ public class SingleResponsibilityTest {
         //then
         Assertions.assertFalse(sensorTemperature.isAlarm());
         Assertions.assertFalse(sensorSmoke.isAlarm());
+
+    }
+
+    @Test
+    void testOpenClosed() {
+        //given
+        TemperatureOpenSensor sensor = new TemperatureOpenSensor(100);
+        //when
+        sensor.getSignal(13);
+        if(sensor.isAlarm()) sensor.sendSms();
+        //then
+        //then
+        Assertions.assertTrue(sensor.isAlarm());
+        Assertions.assertTrue(sensor.getSmsSend() > 0);
 
     }
 }
