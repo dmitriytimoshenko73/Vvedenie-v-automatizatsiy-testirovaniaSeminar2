@@ -1,4 +1,4 @@
-package org.max.demo.solid.singleresponsibility;
+package org.max.demo.solid;
 
 /**
  * Класс датчик - совмещает в себе как функции датчика температуры так и функции датчика задымления

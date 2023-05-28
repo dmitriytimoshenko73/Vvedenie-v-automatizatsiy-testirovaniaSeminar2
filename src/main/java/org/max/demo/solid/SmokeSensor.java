@@ -1,4 +1,4 @@
-package org.max.demo.solid.singleresponsibility;
+package org.max.demo.solid;
 
 public class SmokeSensor implements ISensor{
 

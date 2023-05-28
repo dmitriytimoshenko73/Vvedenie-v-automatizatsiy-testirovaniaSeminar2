@@ -2,10 +2,6 @@ package org.max.demo.solid;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.max.demo.solid.singleresponsibility.ISensor;
-import org.max.demo.solid.singleresponsibility.SmokeSensor;
-import org.max.demo.solid.singleresponsibility.SuperSensor;
-import org.max.demo.solid.singleresponsibility.TemperatureSensor;
 
 public class SingleResponsibilityTest {
 

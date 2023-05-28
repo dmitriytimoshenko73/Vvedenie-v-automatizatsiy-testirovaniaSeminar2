@@ -1,4 +1,4 @@
-package org.max.demo.solid.singleresponsibility;
+package org.max.demo.solid;
 
 public interface ISensor {
 
