@@ -39,7 +39,6 @@ public class SOLIDTest {
         sensor.getSignal(13);
         if(sensor.isAlarm()) sensor.sendSms();
         //then
-        //then
         Assertions.assertTrue(sensor.isAlarm());
         Assertions.assertTrue(sensor.getSmsSend() > 0);
 
@@ -51,7 +50,6 @@ public class SOLIDTest {
         ISensor sensor = new ColdSensor(100);
         //when
         sensor.getSignal(13);
-        //then
         //then
         Assertions.assertNull(sensor.isAlarm());
 
