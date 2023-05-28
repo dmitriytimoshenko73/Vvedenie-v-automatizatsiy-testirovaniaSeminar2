@@ -30,7 +30,7 @@ public class SmokeSensor implements ISensor{
     }
 
     @Override
-    public boolean isAlarm() {
+    public Boolean isAlarm() {
         return alarm;
     }
 }

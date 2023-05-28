@@ -44,4 +44,16 @@ public class SOLIDTest {
         Assertions.assertTrue(sensor.getSmsSend() > 0);
 
     }
+
+    @Test
+    void testLiskov() {
+        //given
+        ISensor sensor = new ColdSensor(100);
+        //when
+        sensor.getSignal(13);
+        //then
+        //then
+        Assertions.assertNull(sensor.isAlarm());
+
+    }
 }

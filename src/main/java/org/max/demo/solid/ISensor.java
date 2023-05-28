@@ -14,5 +14,5 @@ public interface ISensor {
 
     public void setAlarm (boolean alert, String value);
 
-    public boolean isAlarm ();
+    public Boolean isAlarm ();
 }

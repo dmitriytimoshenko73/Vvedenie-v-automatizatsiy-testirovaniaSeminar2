@@ -30,7 +30,7 @@ public class TemperatureSensor implements ISensor{
     }
 
     @Override
-    public boolean isAlarm() {
+    public Boolean isAlarm() {
         return checkAlert(valueActual, valueMax);
     }
 }
