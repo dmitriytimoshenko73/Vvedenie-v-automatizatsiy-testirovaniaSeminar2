@@ -1,5 +1,8 @@
 package org.max.demo.pattern.proxy;
 
+/**
+ * Вспомогательный Enum
+ */
 public enum HttpMethod {
 
     GET ("get"),

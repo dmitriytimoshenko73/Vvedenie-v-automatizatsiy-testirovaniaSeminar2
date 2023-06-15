@@ -1,5 +1,8 @@
 package org.max.demo.pattern.proxy;
 
+/**
+ * Реализация прокси класса
+ */
 public class ClassExample implements IClass{
     @Override
     public String sendGetRequest(Integer id) {

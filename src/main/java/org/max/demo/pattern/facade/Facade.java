@@ -1,5 +1,8 @@
 package org.max.demo.pattern.facade;
 
+/**
+ * Реализация фасада
+ */
 public class Facade implements IFacade{
 
     private ExampleClass exampleClass = new ExampleClass();

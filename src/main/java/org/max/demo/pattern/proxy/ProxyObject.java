@@ -3,6 +3,9 @@ package org.max.demo.pattern.proxy;
 import java.lang.reflect.Method;
 import java.time.LocalDateTime;
 
+/**
+ * Прокси объект
+ */
 public class ProxyObject implements IClass{
 
     IClass iClass = new ClassExample();

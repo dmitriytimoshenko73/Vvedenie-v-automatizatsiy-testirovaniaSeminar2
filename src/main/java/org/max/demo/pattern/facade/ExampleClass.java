@@ -1,5 +1,8 @@
 package org.max.demo.pattern.facade;
 
+/**
+ * Класс для демонстрации
+ */
 public class ExampleClass {
 
     public int count = 0;
