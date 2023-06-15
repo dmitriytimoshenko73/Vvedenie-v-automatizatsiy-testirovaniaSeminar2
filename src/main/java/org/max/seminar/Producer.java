@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Класс поставщика, реализующий интерфейс IProducer
+ */
 public class Producer implements IProducer{
 
     List<IConsumer> consumers = new ArrayList<>();

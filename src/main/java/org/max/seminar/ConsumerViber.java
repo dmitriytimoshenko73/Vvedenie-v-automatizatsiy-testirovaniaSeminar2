@@ -1,5 +1,8 @@
 package org.max.seminar;
 
+/**
+ * Реализация интерфейса IConsumer
+ */
 public class ConsumerViber implements IConsumer{
 
     private boolean free = true;

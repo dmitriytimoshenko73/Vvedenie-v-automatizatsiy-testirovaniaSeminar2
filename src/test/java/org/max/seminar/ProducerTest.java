@@ -3,6 +3,9 @@ package org.max.seminar;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Тест для демонстрации работы паттерна Наблюдатель
+ */
 public class ProducerTest {
 
     @Test

@@ -1,5 +1,8 @@
 package org.max.seminar;
 
+/**
+ * Реализация интерфейса IConsumer
+ */
 public class ConsumerTelegram implements IConsumer{
 
     private boolean free = true;
