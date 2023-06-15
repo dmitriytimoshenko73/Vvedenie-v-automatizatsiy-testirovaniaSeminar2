@@ -1,5 +1,9 @@
 package org.max.demo.pattern.singleton;
 
+/**
+ * Ленивый метод инициализации
+ * класс загружается во время работы приложения именно тогда, когда он нужен
+ */
 public class LazySingleton {
 
     private String url;

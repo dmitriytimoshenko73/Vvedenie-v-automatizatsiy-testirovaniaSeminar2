@@ -1,5 +1,8 @@
 package org.max.demo.pattern.singleton;
 
+/**
+ * Потокобезопасный метод
+ */
 public class ThreadSafeSingleton {
 
     private static ThreadSafeSingleton INSTANCE;

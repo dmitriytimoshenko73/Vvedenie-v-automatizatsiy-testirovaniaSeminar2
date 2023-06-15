@@ -9,6 +9,7 @@ import org.max.demo.pattern.singleton.*;
  */
 public class SingletonTest {
 
+    //Простая инициализация
     @Test
     void singletonSimpleTest () {
         //given
@@ -21,6 +22,7 @@ public class SingletonTest {
         Assertions.assertEquals("https://newurl", singleton.getUrl());
     }
 
+    //Ленивый метод инициализации
     @Test
     void singletonLazyTest () {
         //given
@@ -33,6 +35,7 @@ public class SingletonTest {
         Assertions.assertEquals("https://newurl", singleton.getUrl());
     }
 
+    //Метод инициализации статического блока
     @Test
     void staticBlockSingletonTest () {
         //given
@@ -45,6 +48,7 @@ public class SingletonTest {
         Assertions.assertEquals("https://newurl", singleton.getUrl());
     }
 
+    //Метод отложенной загрузки
     @Test
     void lazyLoadSingletonTest () {
         //given
@@ -57,6 +61,7 @@ public class SingletonTest {
         Assertions.assertEquals("https://newurl", singleton.getUrl());
     }
 
+    //Потокобезопасный метод
     @Test
     void threadSafeSingletonTest () {
         //given
@@ -69,6 +74,7 @@ public class SingletonTest {
         Assertions.assertEquals("https://newurl", singleton.getUrl());
     }
 
+    //Enum
     @Test
     void enumTest() {
         //given

@@ -1,5 +1,8 @@
 package org.max.demo.pattern.singleton;
 
+/**
+ * Метод отложенной загрузки
+ */
 public class LazyLoadSingleton {
 
     private String url;
@@ -16,6 +19,7 @@ public class LazyLoadSingleton {
 
     private LazyLoadSingleton() {
     }
+
     private static class SingletonClassHolder {
         static final LazyLoadSingleton INSTANCE = new LazyLoadSingleton();
     }

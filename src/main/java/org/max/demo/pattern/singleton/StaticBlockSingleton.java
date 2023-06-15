@@ -1,5 +1,8 @@
 package org.max.demo.pattern.singleton;
 
+/**
+ * Метод инициализации статического блока
+ */
 public class StaticBlockSingleton {
 
     private static StaticBlockSingleton INSTANCE;

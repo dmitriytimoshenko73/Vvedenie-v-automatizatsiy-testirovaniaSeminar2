@@ -1,5 +1,8 @@
 package org.max.demo.pattern.singleton;
 
+/**
+ * Простая инициализация
+ */
 public class SimpleSingleton {
 
     static SimpleSingleton INSTANCE = new SimpleSingleton("http://url", 8080, true);

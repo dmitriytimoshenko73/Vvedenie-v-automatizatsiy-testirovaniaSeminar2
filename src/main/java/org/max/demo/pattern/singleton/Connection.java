@@ -1,5 +1,8 @@
 package org.max.demo.pattern.singleton;
 
+/**
+ * Enum
+ */
 public enum Connection {
 
     URL("http://"),
