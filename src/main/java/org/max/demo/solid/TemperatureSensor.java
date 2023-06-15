@@ -1,7 +1,7 @@
 package org.max.demo.solid;
 
 /**
- * Датчик температуры - пример с функицоналом sms оповещения
+ * Датчик температуры
  */
 public class TemperatureSensor implements ISensor{
 
