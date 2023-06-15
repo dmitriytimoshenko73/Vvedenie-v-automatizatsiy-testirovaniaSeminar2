@@ -2,9 +2,10 @@ package org.max.demo.pattern.singleton;
 
 /**
  * Ленивый метод инициализации
- * класс загружается во время работы приложения именно тогда, когда он нужен
  */
 public class LazySingleton {
+
+    private static LazySingleton INSTANCE = null;
 
     private String url;
     private Integer port;
@@ -18,7 +19,7 @@ public class LazySingleton {
         this.url = url;
     }
 
-    private static LazySingleton INSTANCE = null;
+
     private LazySingleton() {
     }
 

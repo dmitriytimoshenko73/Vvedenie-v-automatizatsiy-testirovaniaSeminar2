@@ -5,7 +5,7 @@ package org.max.demo.pattern.singleton;
  */
 public class SimpleSingleton {
 
-    static SimpleSingleton INSTANCE = new SimpleSingleton("http://url", 8080, true);
+    private static final SimpleSingleton INSTANCE = new SimpleSingleton("http://url", 8080, true);
 
     private SimpleSingleton(String url, Integer port, Boolean connect) {
         this.url = url;
