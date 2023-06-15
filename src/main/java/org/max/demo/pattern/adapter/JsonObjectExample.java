@@ -3,6 +3,9 @@ package org.max.demo.pattern.adapter;
 import java.time.LocalDateTime;
 import java.util.Random;
 
+/**
+ * Изнчальный обработчик Json
+ */
 public class JsonObjectExample implements IJson{
     @Override
     public void openResponse() {

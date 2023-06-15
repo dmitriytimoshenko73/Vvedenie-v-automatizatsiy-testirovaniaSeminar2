@@ -3,6 +3,9 @@ package org.max.demo.pattern.adapter;
 import java.time.LocalDate;
 import java.util.Random;
 
+/**
+ * Изнчальный обработчик XML
+ */
 public class XMLObjectExample implements IXml{
     @Override
     public void openXML() {

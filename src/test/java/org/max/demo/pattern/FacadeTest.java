@@ -5,6 +5,9 @@ import org.junit.jupiter.api.Test;
 import org.max.demo.pattern.facade.Facade;
 import org.max.demo.pattern.facade.IFacade;
 
+/**
+ * Тест для демонстрации работы паттерна Фасад
+ */
 public class FacadeTest {
 
     @Test

@@ -4,6 +4,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.max.demo.pattern.singleton.*;
 
+/**
+ * Тест для демонстрации работы паттерна Одиночка
+ */
 public class SingletonTest {
 
     @Test

@@ -2,6 +2,9 @@ package org.max.demo.pattern.adapter;
 
 import java.time.LocalDateTime;
 
+/**
+ * Интерфейс обработчика Json
+ */
 public interface IJson {
 
     public void openResponse();

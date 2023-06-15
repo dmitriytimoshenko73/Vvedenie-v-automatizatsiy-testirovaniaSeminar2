@@ -7,6 +7,9 @@ import org.max.demo.pattern.adapter.XMLAdapter;
 
 import java.util.Date;
 
+/**
+ * Тест для демонстрации работы паттерна Адаптер
+ */
 public class AdapterTest {
 
     @Test

@@ -3,6 +3,9 @@ package org.max.demo.pattern.adapter;
 import java.time.ZoneId;
 import java.util.Date;
 
+/**
+ * Реализация XML адаптера
+ */
 public class XMLAdapter implements IAdapter{
 
     XMLObjectExample xml = new XMLObjectExample();

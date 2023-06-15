@@ -8,6 +8,9 @@ import org.max.demo.pattern.builder.TestObjectExampleBuilder;
 
 import java.time.LocalDateTime;
 
+/**
+ * Тест для демонстрации работы паттерна Строитель
+ */
 public class BuilderTest {
 
     @Test

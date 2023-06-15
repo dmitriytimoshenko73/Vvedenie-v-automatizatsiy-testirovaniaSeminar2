@@ -4,6 +4,9 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
 
+/**
+ * Реализация Json адаптера
+ */
 public class JsonAdapter implements IAdapter{
 
     private JsonObjectExample json = new JsonObjectExample();

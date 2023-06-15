@@ -6,6 +6,9 @@ import org.max.demo.pattern.proxy.ClassExample;
 import org.max.demo.pattern.proxy.IClass;
 import org.max.demo.pattern.proxy.ProxyObject;
 
+/**
+ * Тест для демонстрации работы паттерна Прокси
+ */
 public class ProxyTest {
 
     @Test
