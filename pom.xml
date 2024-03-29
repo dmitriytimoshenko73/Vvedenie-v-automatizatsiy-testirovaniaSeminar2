@@ -21,7 +21,7 @@
 
     <name>Демо проект</name>
     <description>Демонстрационный проект для курса введения в автоматизацию</description>
-    <url>http://demo.max.org</url>
+    <url>https://demo.max.org</url>
 
     <!-- Зависимости -->
     <dependencies>
@@ -62,7 +62,7 @@
     <!-- Репозитории -->
     <repositories>
         <repository>
-            <id>mvnrepository</id>
+            <id>repository</id>
             <url>https://mvnrepository.com/</url>
         </repository>
     </repositories>
